@@ -1,7 +1,7 @@
 import turtle
 
 t = turtle.Turtle()
-t.speed(5)
+t.speed(1)
 t.width(2)
 p=70
 
