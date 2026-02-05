@@ -1,0 +1,7 @@
+fail = open("konto.txt", encoding="UTF-8")
+for rida in fail:
+        
+    arv = float(rida.replace(",","."))
+    if arv > 0:
+        print(arv)
+fail.close()
