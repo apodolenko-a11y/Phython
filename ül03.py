@@ -210,7 +210,7 @@ def kuupäev_sõnana(kuupäev):
     return f"{int(päev)}. {kuu_nimi(kuu)} {aasta}. a"
 
 
-# Põhiprogramm
+
 sisend = input("Sisesta kuupäev kujul DD.MM.YYYY: ")
 print(kuupäev_sõnana(sisend))
 
